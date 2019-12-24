@@ -1,0 +1,71 @@
+/*
+Media queries
+Author: Zach Moore - Nerdventure.net
+*/
+
+/*<======= Large Screens ========>*/
+
+@media (min-width: 992px){
+    /*<======= Header ========>*/
+    #header{
+        display: grid;
+        /* transform: scale(0.7);  use with down arrow*/ 
+        margin: 0;
+        padding: 0;
+    }
+
+    #small-header{
+        display: none;
+    }
+
+    /* Still deciding whether or not to use the arrow*/
+
+    /* down arrow */
+    /* .arrow {
+        position: absolute;
+        top: 40vw;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+  
+    .arrow span{
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-bottom: 20px solid rgb(92, 226, 74);
+        border-right: 20px solid rgb(92, 226, 74);
+        border-radius: 10px;
+        transform: rotate(45deg);
+        margin: -20px;
+        animation-delay: 8s;
+        animation: arrow 2s ease infinite;
+    }
+  
+    .arrow span:nth-child(2){
+        animation-delay: -0.2s;
+    }
+  
+    .arrow span:nth-child(3){
+        animation-delay: -0.4s;
+    } */
+}
+
+
+/*<======= Everything Smaller Than Large Screens ========>*/
+@media (max-width: 991.9px){
+    /*<======= Header ========>*/
+    #header{
+        display: none;
+    }
+
+    #small-header{
+        display: grid;
+    }
+}
+
+/*<======= Everything Smaller Than medium Screens ========>*/
+@media (max-width: 767.9px){
+    .shape-space1{
+        padding: 5em; /* fix clipping on smaller screens*/
+    }
+}

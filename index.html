@@ -1,0 +1,305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+    <head>
+
+        <title>Zach Moore - Software Developer</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Zach Moore">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- font(s) -->
+        <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+
+        <!-- css -->
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/util.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/modal.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+        <link rel="stylesheet" href="css/animations.css" />
+
+    </head>
+
+    <body>
+
+        <main class="centered-grid m-auto">
+
+            <div id="small-header" class="container m-auto">
+                <h1>Zach Moore</h1>
+                <small>Software Developer</small>
+                <div id="sm-header-links">
+                    <a href="https://www.github.com/zachacious" target="_blank" ><svg class="icon trans-ease grow" ><use xlink:href="#icon-github-square"></use></svg></a>
+                    <a href="https://https://www.linkedin.com/in/zachmoore1/" target="_blank" ><svg class="icon trans-ease grow" ><use xlink:href="#icon-linkedin-square"></use></svg></a>
+                    <a href="#" ><svg class="icon trans-ease grow email-btn" ><use xlink:href="#icon-envelope-square"></use></svg></a>
+                </div>
+            </div><!--small header-->
+
+            <div id="header" class="container m-auto">
+                <div id="bubble" class="trans-ease">
+                    <div id="logo-scene" class="scene m-auto fallin-3d" data-dampening="0.005"
+                    data-transform="translateX(-2.5vw) translateY(5vw) translateZ(-10vw) rotateX(-8deg) rotateY(7deg)">
+
+                        <div id="zach" data-boxType="box" data-boxWidth="32" data-boxHeight="15" 
+                            data-boxDepth="8" data-boxUnit="vw">
+
+                            <div data-boxFace="front" class="wh100 centered-grid box-face">
+                                <span class="inset-text h100 text-fade-3d w100"></span>
+                            </div>
+                            <div data-boxFace="back" class="box-face"></div>
+                            <div data-boxFace="right" class="box-face shadow-face" style=""><!--GIT--></div>
+                            <div data-boxFace="left" class="box-face"></div>
+                            <div data-boxFace="top" class="box-face"></div>
+                            <div data-boxFace="bottom" class="box-face dark-shadow-face"></div>
+                                
+                        </div><!--zach-->
+
+                        <div id="moore" data-boxType="box" data-boxWidth="43" data-boxHeight="15" 
+                            data-boxDepth="8" data-boxUnit="vw">
+
+                            <div data-boxFace="front" class="wh100 centered-grid box-face-alt shadow-face">
+                            <span class="inset-text h100 text-fade-3d"></span>
+                            </div>
+                            <div data-boxFace="back" class="box-face-alt dark-shadow-face"></div>
+                            <div data-boxFace="right" class="box-face-alt"></div>
+                            <div id="m-left" data-boxFace="left" class="box-face-alt"></div><!--LI Email-->
+                            <div data-boxFace="top" class="box-face-alt"></div>
+                            <div data-boxFace="bottom" class="box-face-alt dark-shadow-face"></div>
+
+                        </div><!--moore-->
+                        
+                        <!--git button-->
+                        <div id="git-button" class="box-button" data-boxType="box" data-boxWidth="5" data-boxHeight="5" 
+                            data-boxDepth="2" data-boxUnit="vw" onclick="window.open('https://github.com/zachacious', '_blank');">
+                            <div data-boxFace="front" class="wh100 centered-grid icon-box-face shadow-face trans-ease">
+                                <svg class="icon icon-github-square " ><use xlink:href="#icon-github-square"></use></svg>
+                            </div>
+                            <div data-boxFace="back" class="icon-box-face shadow-face trans-ease"></div>
+                            <div data-boxFace="right" class="icon-box-face shadow-face trans-ease"></div>
+                            <div data-boxFace="left" class="icon-box-face trans-ease"></div>
+                            <div data-boxFace="top" class="icon-box-face trans-ease"></div>
+                            <div data-boxFace="bottom" class="icon-box-face dark-shadow-face trans-ease"></div>
+                        </div><!--git button-->
+
+                        <!--software developer shadow-->
+                        <div class="centered-grid sd-cast-shadow">Software<br/>Developer</div>
+
+                        <!--linkein button-->
+                        <div id="linkedin-button" class="box-button" data-boxType="box" data-boxWidth="6" data-boxHeight="5" 
+                            data-boxDepth="1" data-boxUnit="vw" onclick="window.open('https://www.linkedin.com/in/zachmoore1/', '_blank');">
+                            <div data-boxFace="front" class="wh100 centered-grid icon-box-face trans-ease">
+                                <svg class="icon icon-linkedin-square" ><use xlink:href="#icon-linkedin-square"></use></svg>
+                            </div>
+                            <div data-boxFace="back" class="icon-box-face shadow-face trans-ease"></div>
+                            <div data-boxFace="right" class="icon-box-face shadow-face trans-ease"></div>
+                            <div data-boxFace="left" class="icon-box-face trans-ease"></div>
+                            <div data-boxFace="top" class="icon-box-face trans-ease"></div>
+                            <div data-boxFace="bottom" class="icon-box-face dark-shadow-face trans-ease"></div>
+                        </div><!--linkedin button-->
+
+                        <!--email button-->
+                        <div id="email-button" class="box-button email-btn" data-boxType="box" data-boxWidth="6" data-boxHeight="5" 
+                            data-boxDepth="1" data-boxUnit="vw">
+                            <div data-boxFace="front" class="wh100 centered-grid icon-box-face trans-ease">
+                                <svg class="icon icon-envelope-square" ><use xlink:href="#icon-envelope-square"></use></svg>
+                            </div>
+                            <div data-boxFace="back" class="icon-box-face shadow-face trans-ease"></div>
+                            <div data-boxFace="right" class="icon-box-face shadow-face trans-ease"></div>
+                            <div data-boxFace="left" class="icon-box-face trans-ease"></div>
+                            <div data-boxFace="top" class="icon-box-face trans-ease"></div>
+                            <div data-boxFace="bottom" class="icon-box-face dark-shadow-face trans-ease"></div>
+                        </div><!--email button-->
+
+                        <div id="tree1" class="mid-tree"></div>
+                        <div id="tree2" class="mid-tree"></div>
+                        <div id="tree3" class="for-tree"></div>
+                        <div id="tree4" class="for-tree"></div>
+
+                        <div class="floor"></div>
+
+                        <div id="leaf-emitter"></div>
+
+                    </div><!--logo-scene-->
+                </div><!--bubble-->
+
+                <div id="down-arrow">
+                    <svg class="icon icon-circle-down"><use xlink:href="#icon-circle-down"></use></svg>
+                </div>
+
+            </div><!--header-->
+
+            <section id="about" class="shape-space1">
+                <h4 >Self-Taught Developer</h4>
+                <p class="standard-font constrain-80">I've been writing code since childhood; beginning with HTML, CSS, and Basic. Once I understood the concepts of pointers and OOP, I moved to C++, Python, and Javascript.
+                My primary focus is web development and the tremendous opportunities available in this space. I consider myself language agnostic and I love learning new technologies.</P>
+            </section><!--about-->
+
+            <!-- portfolio items-->
+            <section id="portfolio">
+                <h4 id="projects-head" class="shape-space2">Projects</h4>
+                <div id="content" class="centered-grid m-auto constrain-80" >
+
+                    <div class="card" data-controllable="false">
+                        <h2 class="card-header">
+                            <img class="card-img" src="images/zabyrinth_screen.webp" title="Zabyrinth Screenshot" alt="Zabyrinth Screen" />
+                            Zabyrinth
+                        </h2>
+                        <div class="tech-badge">
+                            <img src="images/cpp.webp" />
+                            <img src="images/cocos2dx.webp" />
+                            <img src="images/box2d.webp" />
+                        </div>
+                        
+                        <p class="card-body">A 2d mobile game based on the classic Labyrinth board game. Carefully tilt your device and 
+                guide the ball through the maze to the finish.</p>
+                        <footer class="card-footer">
+                            <button class="card-btn glow grow trans-ease">
+                                <svg class="icon icon-code"><use xlink:href="#icon-code"></use></svg>
+                            </button>
+                            <button class="card-btn grow glow trans-ease">
+                                <svg class="icon icon-ondemand_video"><use xlink:href="#icon-ondemand_video"></use></svg>
+                            </button>
+                        </footer>
+                    </div><!--card-->
+
+                    <div class="card" data-controllable="false">
+                        <h2 class="card-header">
+                            <img class="card-img" src="images/zabyrinth_screen.webp" title="Zabyrinth Screenshot" alt="Zabyrinth Screen" />
+                            Zabyrinth
+                        </h2>
+                        <div class="tech-badge">
+                                <img  src="images/cpp.webp" />
+                                <img src="images/cocos2dx.webp" />
+                                <img src="images/box2d.webp" />
+                            </div>
+                        
+                        <p class="card-body">A 2d mobile game based on the classic Labyrinth board game. Carefully tilt your device and 
+                guide the ball through the maze to the finish.</p>
+                        <footer class="card-footer">
+                            <button class="card-btn glow trans-ease">
+                                Code
+                            </button>
+                            <button class="card-btn glow trans-ease">
+                                Demo
+                            </button>
+                        </footer>
+                    </div><!--card-->
+
+
+                </div><!--contents-->
+            </section><!--portfolio-->
+
+            <footer id="footer">
+                <div id="sm-header-links">
+                    <a href="https://www.github.com/zachacious" target="_blank" ><svg class="icon trans-ease grow" ><use xlink:href="#icon-github-square"></use></svg></a>
+                    <a href="https://https://www.linkedin.com/in/zachmoore1/" target="_blank" ><svg class="icon trans-ease grow" ><use xlink:href="#icon-linkedin-square"></use></svg></a>
+                    <a href="#" ><svg class="icon trans-ease grow email-btn" ><use xlink:href="#icon-envelope-square"></use></svg></a>
+                </div>
+            </footer>
+
+            <!--
+                Contact form 
+            -->
+
+            <div id="contact-modal" class="modal m-auto trans-ease">
+                <div id="modal-body" class="modal-content  trans-ease">
+
+                    <a class='close-btn glow trans-ease' href="#">X</a>
+                    <h2>Let's Talk</h2>
+
+                    <form id="contact-form" method="post" class="">
+                        <!--<label for="fname">Email</label>-->
+                        <input type="email" id="email-input" name="email" placeholder="Email..." class="w100 modal-input" required />
+
+                        <textarea name="message" class="w100 modal-input" id="msg-input" rows="10" 
+                            placeholder="Message" required></textarea>
+
+                        <button name="sendBtn" type="submit" value="submit" name="submit" class="m-auto send-btn glow ">
+                            Send
+                            <span name="btn-loader" class="trans-ease btn-loader" role="status" aria-hidden="true"></span>
+                        </button>
+
+                        <input type="hidden" id="endpoint-url" value="https://www.nerdventure.net/contact/api/v1/msg/send/" />
+                    </form>
+
+                </div><!--modal content-->
+            </div><!--contact modal-->
+
+        </main>
+
+        <!--ICONS-->
+        <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+        <symbol id="icon-github-square" viewBox="0 0 24 28">
+        <title>github-square</title>
+        <path d="M8.109 18.75v0c0.031-0.047 0.016-0.141-0.047-0.203-0.078-0.063-0.172-0.078-0.219-0.031-0.031 0.047-0.016 0.141 0.047 0.203 0.078 0.063 0.172 0.078 0.219 0.031zM7.672 18.109c-0.047-0.063-0.125-0.094-0.187-0.063-0.047 0.031-0.047 0.125 0 0.187 0.063 0.078 0.141 0.109 0.187 0.078v0c0.047-0.031 0.047-0.125 0-0.203zM7.031 17.484v0c0.016-0.031-0.016-0.094-0.078-0.125-0.047-0.016-0.109-0.016-0.125 0.031-0.031 0.047 0 0.094 0.063 0.125 0.063 0.016 0.125 0.016 0.141-0.031zM7.359 17.844v0c0.031-0.031 0.031-0.109-0.031-0.156-0.047-0.063-0.125-0.078-0.156-0.047-0.047 0.047-0.031 0.109 0.016 0.172 0.047 0.047 0.125 0.078 0.172 0.031zM8.703 19.016v0c0.016-0.063-0.047-0.141-0.141-0.172s-0.172 0-0.203 0.063c-0.016 0.063 0.047 0.141 0.141 0.172s0.172 0 0.203-0.063zM9.359 19.063v0c0-0.063-0.078-0.125-0.187-0.125-0.094 0-0.156 0.063-0.156 0.125s0.078 0.125 0.172 0.125 0.172-0.063 0.172-0.125zM9.969 18.953v0c-0.016-0.063-0.109-0.094-0.203-0.078s-0.156 0.078-0.141 0.141 0.094 0.109 0.187 0.094 0.156-0.094 0.156-0.156zM20 14c0-4.422-3.578-8-8-8s-8 3.578-8 8c0 3.531 2.297 6.531 5.469 7.594 0.406 0.078 0.547-0.172 0.547-0.391 0-0.187 0-0.812-0.016-1.484 0 0-2.219 0.484-2.688-0.953 0 0-0.359-0.922-0.891-1.156 0 0-0.719-0.5 0.063-0.5 0 0 0.781 0.063 1.219 0.828 0.703 1.234 1.875 0.875 2.328 0.672 0.078-0.516 0.281-0.875 0.516-1.078-1.781-0.203-3.656-0.891-3.656-3.953 0-0.875 0.313-1.578 0.828-2.141-0.078-0.203-0.359-1.016 0.078-2.125 0.672-0.203 2.203 0.828 2.203 0.828 0.641-0.187 1.313-0.266 2-0.266s1.359 0.078 2 0.266c0 0 1.531-1.031 2.203-0.828 0.438 1.109 0.156 1.922 0.078 2.125 0.516 0.562 0.828 1.266 0.828 2.141 0 3.078-1.875 3.75-3.656 3.953 0.281 0.25 0.547 0.734 0.547 1.484 0 1.062-0.016 1.922-0.016 2.188 0 0.219 0.141 0.469 0.547 0.391 3.172-1.062 5.469-4.062 5.469-7.594zM24 6.5v15c0 2.484-2.016 4.5-4.5 4.5h-15c-2.484 0-4.5-2.016-4.5-4.5v-15c0-2.484 2.016-4.5 4.5-4.5h15c2.484 0 4.5 2.016 4.5 4.5z"></path>
+        </symbol>
+        </defs>
+        </svg>
+
+        <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+        <symbol id="icon-linkedin-square" viewBox="0 0 24 28">
+        <title>linkedin-square</title>
+        <path d="M3.703 22.094h3.609v-10.844h-3.609v10.844zM7.547 7.906c-0.016-1.062-0.781-1.875-2.016-1.875s-2.047 0.812-2.047 1.875c0 1.031 0.781 1.875 2 1.875h0.016c1.266 0 2.047-0.844 2.047-1.875zM16.688 22.094h3.609v-6.219c0-3.328-1.781-4.875-4.156-4.875-1.937 0-2.797 1.078-3.266 1.828h0.031v-1.578h-3.609s0.047 1.016 0 10.844v0h3.609v-6.062c0-0.313 0.016-0.641 0.109-0.875 0.266-0.641 0.859-1.313 1.859-1.313 1.297 0 1.813 0.984 1.813 2.453v5.797zM24 6.5v15c0 2.484-2.016 4.5-4.5 4.5h-15c-2.484 0-4.5-2.016-4.5-4.5v-15c0-2.484 2.016-4.5 4.5-4.5h15c2.484 0 4.5 2.016 4.5 4.5z"></path>
+        </symbol>
+        </defs>
+        </svg>
+
+        <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+        <symbol id="icon-envelope-square" viewBox="0 0 24 28">
+        <title>envelope-square</title>
+        <path d="M19.5 2c2.484 0 4.5 2.016 4.5 4.5v15c0 2.484-2.016 4.5-4.5 4.5h-15c-2.484 0-4.5-2.016-4.5-4.5v-15c0-2.484 2.016-4.5 4.5-4.5h15zM20 18.5v-6.813c-0.297 0.328-0.625 0.625-1 0.859-1.469 0.969-2.984 1.875-4.438 2.875-0.734 0.516-1.641 1.078-2.562 1.078v0 0 0 0c-0.922 0-1.828-0.562-2.562-1.078-1.453-1-2.984-1.891-4.438-2.891-0.359-0.234-0.641-0.578-1-0.844v6.813c0 0.828 0.672 1.5 1.5 1.5h13c0.828 0 1.5-0.672 1.5-1.5zM20 9.547c0-0.844-0.625-1.547-1.5-1.547h-13c-0.828 0-1.5 0.672-1.5 1.5 0 0.844 0.875 1.766 1.531 2.203 1.375 0.922 2.797 1.781 4.172 2.688 0.594 0.391 1.578 1.109 2.297 1.109s1.703-0.719 2.297-1.109c1.391-0.906 2.781-1.797 4.172-2.719 0.609-0.406 1.531-1.344 1.531-2.125z"></path>
+        </symbol>
+        </defs>
+        </svg>
+
+        <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+        <symbol id="icon-ondemand_video" viewBox="0 0 24 24">
+        <title>ondemand_video</title>
+        <path d="M15.984 11.016l-6.984 3.984v-8.016zM21 17.016v-12h-18v12h18zM21 3q0.844 0 1.43 0.586t0.586 1.43l-0.047 12q0 0.797-0.586 1.383t-1.383 0.586h-5.016v2.016h-7.969v-2.016h-5.016q-0.844 0-1.43-0.563t-0.586-1.406v-12q0-0.844 0.586-1.43t1.43-0.586h18z"></path>
+        </symbol>
+        </defs>
+        </svg>
+
+        <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+        <symbol id="icon-code" viewBox="0 0 32 32">
+        <title>code</title>
+        <path d="M0 19.256l10.042 6.457v-4.661l-5.979-3.692 5.979-3.692v-4.693l-10.042 6.49v3.791zM12.166 28h3.456l5.064-24h-3.479l-5.041 24zM21.959 8.975v4.693l5.977 3.692-5.977 3.691v4.661l10.041-6.456v-3.791l-10.041-6.49z"></path>
+        </symbol>
+        </defs>
+        </svg>
+
+        <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+        <symbol id="icon-circle-down" viewBox="0 0 32 32">
+        <title>circle-down</title>
+        <path d="M32 16c0-8.837-7.163-16-16-16s-16 7.163-16 16 7.163 16 16 16 16-7.163 16-16zM3 16c0-7.18 5.82-13 13-13s13 5.82 13 13-5.82 13-13 13-13-5.82-13-13z"></path>
+        <path d="M9.914 11.086l-2.829 2.829 8.914 8.914 8.914-8.914-2.828-2.828-6.086 6.086z"></path>
+        </symbol>
+        </defs>
+        </svg>
+        
+        <!---------------->
+
+        <!-- js -->
+        <script src="js/3dBoxGen.js"></script>
+        <script src="js/3dCamera.js"></script>
+        <script src="js/cookies.js"></script>
+        <script src="js/modal.js"></script>
+        <script src="js/leafgen.js"></script>
+
+        <!-- stop form resubmission pop-up on refresh -->
+        <script>
+            if ( window.history.replaceState ) {
+            window.history.replaceState( null, null, window.location.href );
+            }
+        </script>
+
+    </body>
+
+</html>
